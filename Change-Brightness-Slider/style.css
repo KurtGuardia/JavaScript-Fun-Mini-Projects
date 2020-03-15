@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url(toledo.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brightness-box {
+  width: 400px;
+  height: 60px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brightness-box i {
+  margin: 0 10px;
+  font-size: x-large;
+}
+
+.brightness-box .far,
+.fas {
+    transition: color, font-size, 1s;
+  }
+
+.brightness-box .far:hover {
+    margin: 0 10px;
+    font-size: xx-large;
+    color: teal;
+  }
+
+.brightness-box .fas:hover {
+    margin: 0 10px;
+    font-size: xx-large;
+    color: yellow;
+  }
+
+#range {
+  width: 100%;
+  -webkit-appearance: none;
+  background: rgb(103, 3, 233);
+  height: 3px;
+  outline: none;
+}
+
+#range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 22px;
+  height: 22px;
+  background: #333;
+  border-radius: 50%;
+  cursor: pointer;
+}
