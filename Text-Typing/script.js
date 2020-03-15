@@ -1,6 +1,6 @@
 var i=0, text;
 
-text = "Hola Mari, que manera de dormir no? Dioj mio... bueno pero que no estes durmiendo esta noche en hora, vas a ver, waska...";
+text = "Hello... is it me you are looking for?... I can see it in your eyes... I can see it in your smile.... You're all I've ever wanted and my arms are open wide.... <3";
 
 var typing = () => {
    if(i<text.length) {
