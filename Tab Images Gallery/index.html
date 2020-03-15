@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="images">
+        <div class="photo">
+            <img onclick="changeimg(this)" src="Petra.jpg" alt="Petra">
+        </div>
+        <div  class="photo">
+            <img onclick="changeimg(this)" src="Paris.jpg" alt="Paris">
+        </div>
+        <div class="photo">
+            <img onclick="changeimg(this)" src="Rome.jpg" alt="Rome">
+        </div>
+        <div class="photo">
+            <img onclick="changeimg(this)" src="Tokyo.jpg" alt="Tokyo">
+        </div>
+        <div class="photo">
+            <img onclick="changeimg(this)" src="Dubai.jpg" alt="Dubai">
+        </div>
+        
+    </div>
+
+    <div class="pre">
+        <a class="close" onclick="this.parentElement.style.display='none'"><ion-icon name="close-outline" class="close-outline"></ion-icon></a>
+        <img src="Petra.jpg" id="p" alt="">
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+</html>
