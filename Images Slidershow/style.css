@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0; 
+    background-image: url('background.jpg');
+}
+
+.slider{
+    position: relative;
+    width: 720px;
+    height: 540px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.slides{
+    width: 720px;
+    display: flex;
+    
+}
+
+.slide{
+    width: 720px;
+    transition: 0.8s;
+}
+
+
+.btnLeft,
+.btnRight{
+    position: absolute;
+    width: 70px;
+    height: 540px;
+    top: 0;
+    font-size: 50px;
+    line-height: 540px !important;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+    background: rgba(240, 248, 255, 0.274);
+}
+
+.btnLeft:hover,
+.btnRight:hover{
+    background: #000000b3;
+    color: aliceblue;
+}
+
+.btnLeft{
+    left: 0;
+}
+
+.btnRight{
+    right: 0;
+}
